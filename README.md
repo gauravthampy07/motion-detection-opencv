@@ -22,8 +22,4 @@ This project implements a real-time motion detection system using classical comp
 4. Detects motion regions using contours
 5. Saves snapshots only when meaningful motion is detected
 
-## Usage
-Run the script:
-```bash
-python motion_detector.py
 
