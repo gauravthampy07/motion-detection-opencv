@@ -22,4 +22,17 @@ This project implements a real-time motion detection system using classical comp
 4. Detects motion regions using contours
 5. Saves snapshots only when meaningful motion is detected
 
+## Usage
+
+Run the script:
+
+bash
+python motion_detector.py
+
+1. Ensure Python and OpenCV are installed
+2. Run the script using the command above
+3. Move in front of the camera to trigger motion detection
+4. Snapshots will be saved automatically in the motion_snapshots directory
+5. Press Q to exit the program
+
 
