@@ -24,15 +24,25 @@ This project implements a real-time motion detection system using classical comp
 
 ## Usage
 
-Run the script:
+Run the script using the command below.
 
-bash
-python motion_detector.py
+Steps:
+1. Ensure Python and OpenCV are installed  
+2. Run the script using the command above  
+3. Move in front of the camera to trigger motion detection  
+4. Snapshots will be saved automatically in the `motion_snapshots` directory  
+5. Press **Q** to exit the program  
 
-1. Ensure Python and OpenCV are installed
-2. Run the script using the command above
-3. Move in front of the camera to trigger motion detection
-4. Snapshots will be saved automatically in the motion_snapshots directory
-5. Press Q to exit the program
+---
+
+## Project Status
+Phase 1: Motion Detection & Snapshot Capture — Completed ✅
+
+---
+
+## Future Improvements
+- Human detection using machine learning models  
+- ESP32 / Edge AI integration  
+- Motion-triggered alerts and notifications  
 
 
