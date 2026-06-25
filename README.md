@@ -56,7 +56,7 @@ This project was my introduction to Computer Vision and laid the foundation for 
 
 ## Motion Detection
 
-![Motion Detection](motion-detection-opencv/Screenshot 2025-12-18 234924.png)
+![Motion Detection](Screenshot%202025-12-18%20234924.png)
 
 
 ---
