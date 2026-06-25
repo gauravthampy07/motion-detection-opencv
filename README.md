@@ -56,19 +56,8 @@ This project was my introduction to Computer Vision and laid the foundation for 
 
 ## Motion Detection
 
-![Motion Detection](screenshots/motion-detected.png)
+![Motion Detection](Screenshot 2025-12-18 234924.png)
 
----
-
-## Bounding Box Detection
-
-![Bounding Box](screenshots/bounding-box.png)
-
----
-
-## Snapshot Saved
-
-![Snapshot](screenshots/snapshot-saved.png)
 
 ---
 
