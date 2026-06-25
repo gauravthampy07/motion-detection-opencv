@@ -1,48 +1,150 @@
-# Real-Time Motion Detection using OpenCV
+# 🤖 Motion Detection using OpenCV
 
-This project implements a real-time motion detection system using classical computer vision techniques in OpenCV.
-
-## Features
-- Live webcam-based motion detection
-- Frame differencing for detecting movement
-- Noise reduction using Gaussian blur and thresholding
-- Morphological operations for stable detection
-- Contour-based localization with bounding boxes
-- Event-driven snapshot capture with time-based rate limiting
-
-## Tech Stack
-- Python
-- OpenCV
-- Computer Vision
-
-## How it Works
-1. Captures consecutive frames from a webcam
-2. Computes frame differences to detect motion
-3. Filters noise using blur, thresholding, and dilation
-4. Detects motion regions using contours
-5. Saves snapshots only when meaningful motion is detected
-
-## Usage
-
-Run the script using the command below.
-
-Steps:
-1. Ensure Python and OpenCV are installed  
-2. Run the script using the command above  
-3. Move in front of the camera to trigger motion detection  
-4. Snapshots will be saved automatically in the `motion_snapshots` directory  
-5. Press **Q** to exit the program  
+A real-time **Motion Detection System** built using **Python** and **OpenCV** that detects movement through a webcam, highlights moving objects using bounding boxes, and automatically captures snapshots whenever motion is detected.
 
 ---
 
-## Project Status
-Phase 1: Motion Detection & Snapshot Capture — Completed ✅
+## 📖 Project Overview
+
+This project demonstrates the fundamentals of **Computer Vision** using OpenCV. It continuously monitors a webcam feed, compares consecutive frames to identify movement, and detects significant changes in the scene.
+
+When motion is detected, the application:
+
+* 📦 Draws a bounding box around the moving object
+* 📸 Saves a snapshot automatically
+* 🎥 Displays the live processed video feed
+
+This project was my introduction to Computer Vision and laid the foundation for more advanced Edge AI and surveillance projects.
 
 ---
 
-## Future Improvements
-- Human detection using machine learning models  
-- ESP32 / Edge AI integration  
-- Motion-triggered alerts and notifications  
+# ✨ Features
 
+* 🎥 Real-time webcam processing
+* 🚶 Motion detection using frame differencing
+* 📦 Bounding box generation
+* 📸 Automatic snapshot capture
+* ⚡ Lightweight implementation
+* 🖥️ Easy to run on any computer with a webcam
 
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose              |
+| ---------- | -------------------- |
+| Python     | Programming Language |
+| OpenCV     | Computer Vision      |
+| NumPy      | Image Processing     |
+
+---
+
+# ⚙️ Working Principle
+
+1. Capture live webcam frames.
+2. Convert frames to grayscale.
+3. Apply Gaussian Blur to reduce noise.
+4. Compare consecutive frames.
+5. Apply thresholding to identify moving regions.
+6. Detect contours.
+7. Draw bounding boxes.
+8. Save an image whenever motion is detected.
+
+---
+
+# 📸 Demo
+
+## Motion Detection
+
+![Motion Detection](screenshots/motion-detected.png)
+
+---
+
+## Bounding Box Detection
+
+![Bounding Box](screenshots/bounding-box.png)
+
+---
+
+## Snapshot Saved
+
+![Snapshot](screenshots/snapshot-saved.png)
+
+---
+
+# 📂 Project Structure
+
+```text
+motion-detection-opencv
+│
+├── motiondetector.py
+├── README.md
+└── screenshots
+    ├── motion-detected.png
+    ├── bounding-box.png
+    └── snapshot-saved.png
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/gauravthampy07/motion-detection-opencv.git
+```
+
+Install dependencies
+
+```bash
+pip install opencv-python numpy
+```
+
+Run the project
+
+```bash
+python motiondetector.py
+```
+
+---
+
+# 🚀 Future Improvements
+
+* Human detection using YOLO
+* Person detection instead of generic motion
+* ESP32-CAM integration
+* Motion heatmap visualization
+* Email notifications
+* Edge AI deployment
+* Deep learning-based object detection
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project I learned:
+
+* Computer Vision fundamentals
+* Image preprocessing
+* Contour detection
+* Frame differencing
+* Real-time video processing
+* Motion detection algorithms
+* OpenCV basics
+
+---
+
+# 👨‍💻 Author
+
+**Gaurav Thampy**
+
+B.Tech Electronics and Communication Engineering
+
+SRM Institute of Science and Technology
+
+GitHub: https://github.com/gauravthampy07
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star**!
